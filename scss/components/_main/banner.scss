@@ -1,0 +1,10 @@
+main {
+  background-color: $bg-color;
+  .banner_wrapper {
+    display: $display;
+    justify-content: space-between;
+    .right_banner {
+      @include transform(scale(0.5));
+    }
+  }
+}
